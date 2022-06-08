@@ -76,6 +76,13 @@ https://github.com/semihguezel/Map-User-Interface
 You can view the report of our project as a pdf file here.<br>
 https://github.com/semihguezel/Graduation-Project/blob/Main/211215_GraduationProjectReport.pdf
 
+# Contact Me
+You can contact me for further details<br>
+My mail adress;<br>
+&emsp;* semihguzel1967@gmail.com<br>
+My LinkeIn page;<br>
+&emsp;* www.linkedin.com/in/semih-güzel-a8a2a3238
+
 # References
 1. https://towardsdatascience.com/numerical-optimization-based-on-the-l-bfgs-method-f6582135b0ca
 
