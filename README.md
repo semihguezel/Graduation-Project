@@ -17,8 +17,8 @@ Position and Orientation Estimation using 360° spherical camera
   <img src="https://github.com/semihguezel/Graduation-Project/blob/Main/images/Epipolar_Geometry.png" width="350" title="Epipolar Geometry">
 </p>
 
-# Estimating Rotation and Transformation Matrices
-&emsp; In epipolar geometry, estimation of Rotation & Transformation matrices can be computed by decomposition of Essential matrix. However in our project we decompose these matrices by using BFGS optimizer algorithm.
+# Estimating Rotation and Translation Matrices
+&emsp; In epipolar geometry, estimation of Rotation & Translation matrices can be computed by decomposition of Essential matrix. However in our project we decompose these matrices by using BFGS optimizer algorithm.
 
 # BFGS Optimization Algorithm
 &emsp; The BFGS algorithm is one of the Quasi-Newton methods. In Quasi-Newton methods, the hessian matrix is produced by taking the partial second derivatives of the given inputs. However, it has a limitation as it requires the calculation of the inverse of the Hessian that can be computationally intensive. The Quasi-Newton method approximates the inverse of the Hessian using the gradient and hence can be computationally feasible.The BFGS method (the L-BFGS is an extension of BFGS) updates the calculation of the Hessian matrix at each iteration rather than recalculating it [1]. In our project, the BFGS algorithm minimizes the projection errors in the transition from world coordinates to camera coordinates.
